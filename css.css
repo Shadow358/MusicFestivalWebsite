@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  ############################ */
+/*  #  General HTML Tag Rules  # */
+/*  ############################ */  
+
+html{
+	font-size:16px;
+}
+
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	padding:0px;
+	background-color:#030921;
+	background-image:url(images/background.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:1095px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+	margin:0px;	
+	padding:5px 20px 0px 20px;
+}
+
+h1{
+	margin-bottom:30px;
+}
+
+a{
+	text-decoration:none;
+	border:none;
+	outline:none;
+	color:#000;
+}
+
+a:hover{
+	text-decoration:underline;
+	border:none;
+	outline:none;
+}
+
+img{
+	border:none;
+	outline:none;
+	float:top;
+}
+
+textarea {
+	resize: none;
+	}
+
+.clear{
+	clear:both;
+}
+
+
+/*  ##################################  */  /*  #############################  */
+/*  #  General Template Class Rules  #  */  /*  #  All rules for Index.php  #  */
+/*  ##################################  */  /*  #############################  */
+
+.wrapOverall{
+	color:white;
+}
+
+.wrapHeader{
+	display:table;
+	table-layout:fixed;
+	width:1250px;
+	height: 125px;
+	margin:0px auto;
+	text-align:center;
+	/*Shadow and glow effect*/
+	/*box-shadow: 
+	0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+	0 0 200px 1px rgba(255, 255, 255, 0.5);*/
+}
+
+.logo{
+	display:table-cell;
+	background-color: rgba(0, 64, 80, 0.7);
+	width:250px;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.logo img{
+	display:inline-block;
+}
+
+.content{
+	display:table;
+	table-layout:fixed;
+	background-color: rgba(0, 64, 80, 0.7);
+	width:1250px;
+	margin:0 auto;
+	/*Shadow and glow effect*/
+	/*box-shadow: 
+	0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+	0 0 200px 1px rgba(255, 255, 255, 0.5);*/
+}
+
+
+/*  ########################  */
+/*  #  General Menu Rules  #  */
+/*  ########################  */
+
+.menu{
+	display:table-cell;
+	background-color: rgba(0, 64, 80, 0.7);
+	font-size:20px;
+}
+
+.menu ul{
+	padding:0px;
+	margin:0 auto;
+	position:relative;
+	display:inline-table;
+	min-width: 750px;
+}
+
+.menu ul li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:left;
+}
+
+.menu ul li a{
+	margin:0px;
+	padding:10px 20px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.menu ul li a:hover{
+	color:black;
+}
+
+
+/*  ########################  */
+/*	#	      Home  	   #  */
+/*  ########################  */
+
+.home{
+	display:table-cell;
+	vertical-align:top;
+}
+
+.home ul{
+	list-style:none;
+}
+
+/*  ########################  */
+/*	#	     Tickets	   #  */
+/*  ########################  */
+
+.tickets{
+	display:table-cell;
+}
+
+.ticketform{
+	padding:0px 20px 50px 20px;
+}
+
+
+
+
+/*  ############################ */
+/*  #           Event          # */
+/*  ############################ */
+
+.p{
+	padding-bottom:50px;
+}
+
+.p_image{
+	display:table-cell;
+	padding-left:20px;
+}
+
+.p_text{
+	display:table-cell;
+	vertical-align:top;
+}
+
+
+/*  ########################  */
+/*	#  Contact Form		   #  */
+/*  ########################  */
+
+.tableform{
+	padding:50px 20px 50px 20px;
+}
+
+.tableform td{
+	padding-bottom:5px;
+}
+
+input, textarea {   
+	padding: 9px;
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;   
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}  
+  
+textarea {   
+	width: 400px;  
+	max-width: 400px;  
+	height: 150px;  
+	line-height: 150%;  
+}  
+
+input:hover, textarea:hover,  
+input:focus, textarea:focus {
+	border-color: #C9C9C9;   
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}  
+
+input[type="submit"]:active, input[type="button"]:active{
+	color:rgba(0, 64, 80, 0.7);
+}
+
+
+/*  ########################  */
+/*	#	     Accordian 	   #  */
+/*  ########################  */
+
+#accordian {
+	background-color: rgba(0, 64, 80);
+	width: 100%;
+	color: white;
+	margin:0px;
+	padding-bottom:50px;
+}
+
+#accordian h3 {
+	font-size: 12px;
+	line-height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+	/*fallback for browsers not supporting gradients*/
+	background: #003040; 
+	background: linear-gradient(#003040, #002535);
+}
+
+/*heading hover effect*/
+#accordian h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+
+/*iconfont styles*/
+#accordian h3 span {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+/*list items*/
+#accordian li {
+	list-style-type: none;
+}
+
+/*links*/
+#accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	/*transition for smooth hover animation*/
+	transition: all 0.15s;
+}
+
+/*hover effect on links*/
+#accordian ul ul li a:hover {
+	background: #003545;
+	border-left: 5px solid lightgreen;
+}
+
+#accordian ul ul {
+	display: none;
+}
+
+#accordian li.active ul{
+	display: block;
+}
